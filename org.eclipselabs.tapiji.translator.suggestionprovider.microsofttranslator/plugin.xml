@@ -2,7 +2,7 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         point="org.eclipselabs.tapiji.translator.suggestion">
+         point="org.eclipse.babel.editor.suggestion">
       <client
             class="org.eclipselabs.tapiji.translator.suggestionprovider.microsofttranslator.MicrosoftTranslatorProvider">
       </client>

@@ -2,8 +2,7 @@
 <?eclipse version="3.4"?>
 <plugin>
    <extension
-         id="org.eclipselabs.tapiji.translator.suggestionprovider.glossary"
-         point="org.eclipselabs.tapiji.translator.suggestion">
+         point="org.eclipse.babel.editor.suggestion">
       <client
             class="org.eclipselabs.tapiji.translator.suggestionprovider.glossary.GlossarySuggestionProvider">
       </client>
