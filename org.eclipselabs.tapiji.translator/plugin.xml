@@ -109,10 +109,4 @@
         </property>
      </product>
   </extension>
-  <extension
-        point="org.eclipse.ui.startup">
-     <startup
-           class="org.eclipselabs.tapiji.translator.Startup">
-     </startup>
-  </extension>
 </plugin>
